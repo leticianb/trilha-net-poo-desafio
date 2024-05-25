@@ -9,6 +9,6 @@ a1.ReceberLigacao();
 
 Console.WriteLine("\nNokia");
 Smartphone n1 = new Nokia(numero: "13", modelo: "15", imei: "56",memoria: 128);
-a1.InstalarAplicativo("Tiktok");
-a1.Ligar();
-a1.ReceberLigacao();
+n1.InstalarAplicativo("Tiktok");
+n1.Ligar();
+n1.ReceberLigacao();
